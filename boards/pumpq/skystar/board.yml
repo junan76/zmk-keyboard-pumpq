@@ -1,0 +1,7 @@
+board:
+  name: skystar
+  vendor: pumpq
+  socs:
+    - name: stm32f407xx
+      variants:
+      - name: zmk

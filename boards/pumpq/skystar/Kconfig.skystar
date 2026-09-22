@@ -1,0 +1,3 @@
+config BOARD_SKYSTAR
+    select SOC_STM32F407XE
+    select ZMK_BOARD_COMPAT
