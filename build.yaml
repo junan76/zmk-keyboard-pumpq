@@ -1,2 +1,2 @@
 include:
-  - board: skystar
+  - board: skystar//zmk

@@ -1,0 +1,9 @@
+if BOARD_SKYSTAR
+
+config ZMK_KEYBOARD_NAME
+    default "Pumpq Skystar"
+
+config ZMK_KSCAN_MATRIX_POLLING
+    default y
+
+endif
