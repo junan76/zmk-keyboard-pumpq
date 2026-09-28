@@ -20,7 +20,7 @@
 		zephyr,sram = &sram0;
 		zephyr,flash = &flash0;
 		zmk,kscan = &kscan0;
-		zmk,physical-layout = &layout_ortho_4x12_all1u;
+		zmk,physical-layout = &layout_pumpq_4x4_all1u;
 	};
 
 	kscan0: kscan0 {
@@ -47,7 +47,7 @@
 			   RC(3,0) RC(3,1) RC(3,2) RC(3,3)>;
 	};
 
-	layout_pumpq_4x4_all1u: layout_ortho_4x12_all1u {
+	layout_pumpq_4x4_all1u: layout_pumpq_4x4_all1u {
 		compatible = "zmk,physical-layout";
 		display-name = "4x4 All 1U/Grid";
 		transform = <&layout_grid_transform>;
